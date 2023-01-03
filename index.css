@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* uigradients.com */
+    background: gainsboro;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, gainsboro, #eef2f3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top,#000000, #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+
+}
+button {
+    height: 3em;
+    width: 3em;
+    font-size: 2em;
+    font-family: inherit;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: red;
+    border: 1px solid darkred;
+    box-shadow: 3px 3px 5px darkred; 
+    cursor: pointer;
+}
+#container{
+    border: 1px solid none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    padding: 0 20px;
+    margin: 2em;
+}
+h1{
+    margin-top: 1em;
+    color: whitesmoke
+}
